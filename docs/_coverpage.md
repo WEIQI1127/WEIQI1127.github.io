@@ -12,5 +12,5 @@
 - ORM体系
 
 [GitHub](https://github.com/WEIQI1127/WEIQI1127.github.io.git/)
-[开始学习](/docs/md/introduction/introduction.md)
+[开始学习](md/introduction/introduction.md)
 
