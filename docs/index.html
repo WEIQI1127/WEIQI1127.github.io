@@ -28,7 +28,25 @@
       repo: 'https://github.com/WEIQI1127/WEIQI1127.github.io.git',
       count:{ countable:true, fontsize:'0.9em', color:'rgb(90,90,90)', language:'chinese' },
       name: "WEIQI的编程专栏",
-      logo: "QI.png",
+      plugins: [
+	     function (hook, vm) {
+          hook.beforeEach(function (html) {
+            if (/githubusercontent\.com/.test(vm.route.file)) {
+              url = vm.route.file
+                .replace('raw.githubusercontent.com', 'github.com')
+                .replace(/\/master/, '/blob/master')
+            } else {
+              url = 'https://github.com/WEIQI1127/WEIQI1127.github.io/main/docs' + vm.route.file
+            }
+            var editHtml = '[:memo: Edit Document](' + url + ')\n\n'
+
+            return editHtml
+              + html
+              + '\n\n----\n\n'
+              + '<a href="https://docsify.js.org" target="_blank" style="color: inherit; font-weight: normal; text-decoration: none;">Powered by docsify</a>'
+          })
+        }, 
+	],
     }
   </script>
   <!-- Docsify v4 -->
