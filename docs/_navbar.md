@@ -11,7 +11,7 @@
   - [SpringCloud](/快速入门.md)
   - [源码分析](/快速入门.md)
 - 编程思想
-  - [设计模式](/快速入门.md)
+  - [设计模式](/md/designpatterns/creational/singleton.md)
   - [编程规范](/快速入门.md)
   - [架构思想](/快速入门.md)
 - Netty学习
