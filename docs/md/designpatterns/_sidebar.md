@@ -1,9 +1,9 @@
 - 创造型模式
   - [单例](md/designpatterns/creational/singleton.md)
-  - [原型](md/designpatterns/creational/singleton.md)
-  - [生成器](md/designpatterns/creational/singleton.md)
-  - [工厂方法](md/designpatterns/creational/singleton.md)
-  - [抽象工厂](md/designpatterns/creational/singleton.md)
+  - [原型](md/designpatterns/creational/prototype.md)
+  - [生成器](md/designpatterns/creational/builder.md)
+  - [工厂方法](md/designpatterns/creational/factorymethod.md)
+  - [抽象工厂](md/designpatterns/creational/abstractfactory.md)
 - 结构型模式
   - [代理](md/designpatterns/creational/singleton.md)
   - [桥接](md/designpatterns/creational/singleton.md)
