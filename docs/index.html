@@ -30,23 +30,29 @@
       name: "WEIQI的编程专栏",
       plugins: [
 	     function (hook, vm) {
-          hook.beforeEach(function (html) {
-            if (/githubusercontent\.com/.test(vm.route.file)) {
-              url = vm.route.file
-                .replace('raw.githubusercontent.com', 'github.com')
-                .replace(/\/master/, '/blob/master')
-            } else {
-              url = 'https://github.com/WEIQI1127/WEIQI1127.github.io/main/docs' + vm.route.file
-            }
-            var editHtml = '[:memo: Edit Document](' + url + ')\n\n'
-
-            return editHtml
-              + html
-              + '\n\n----\n\n'
-              + '<a href="https://docsify.js.org" target="_blank" style="color: inherit; font-weight: normal; text-decoration: none;">Powered by docsify</a>'
+          	hook.beforeEach(function (html) {
+           	 var url = 'https://github.com/WEIQI1127/WEIQI1127.github.io/main/docs' + vm.route.file
+           	 var editHtml = '[:memo: Edit Document](' + url + ')\n\n'
+            	return editHtml
+             	 + html
+              	 + '\n\n----\n\n'
+             	 + '<a href="https://docsify.js.org" target="_blank" style="color: inherit; font-weight: normal; text-decoration: none;">Powered by docsify</a>'
           })
         }, 
-	],
+	      function (hook) {
+      			var footer = [
+        			"<hr/>",
+        			"<footer>",
+        			'<span><a href="https://github.com/WEIQI1127/WEIQI1127.github.io">WEIQI</a> &copy;2022.</span>',
+        			'<span>迭代发布于 <a href="https://github.com/docsifyjs/docsify" target="_blank">Github</a>.</span>',
+        			"</footer>",
+	      		].join("");
+
+      			hook.afterEach(function (html) {
+        		return html + footer;
+      });
+    },
+      ],
     }
   </script>
   <!-- Docsify v4 -->
