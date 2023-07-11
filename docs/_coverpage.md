@@ -2,15 +2,17 @@
 
 > 语言类知识
 
-- Java语言
 - Go语言
-- Python语言
 - Ruby语言
+- Java语言
+- Python语言
 
 > 框架类知识
 
-- Spring体系
-- ORM体系
+- Gin
+- Rails
+- Flask
+- SpringBoot
 
 [GitHub](https://github.com/WEIQI1127/WEIQI1127.github.io.git/)
 [开始学习](md/introduction/introduction.md)
