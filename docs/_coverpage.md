@@ -16,7 +16,3 @@
 
 [GitHub](https://github.com/WEIQI1127/WEIQI1127.github.io.git/)
 [开始学习](md/introduction/introduction.md)
-
-## 公众号
-本专栏的最新文章都会第一时间发不到微信公众号，获取一手信息欢迎关注微信公众号 `编程之艺术`：
-<div align=center><img src="images/code_skill.jpg"></div>
