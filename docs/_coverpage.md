@@ -5,6 +5,7 @@
 - Java语言
 - Go语言
 - Python语言
+- Ruby语言
 
 > 框架类知识
 
