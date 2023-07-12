@@ -6,19 +6,16 @@
   - [Java高并发](/快速入门.md)
   - [网络编程](/快速入门.md)
 - Go | Python | Ruby
-  - Golang
-    - Go基础学习
-    - Go进阶
-    - Gin框架
-  - Python
-    - Python基础学习
-    - Python高级变成
-    - Flask框架
-  - Ruby
-    - Ruby基础学习
-    - Ruby on Rails
-    - Ruby高级技巧
-    - Ruby元编程
+  - Go基础学习
+  - Go进阶
+  - Gin框架
+  - Python基础学习
+  - Python高级变成
+  - Flask框架
+  - Ruby基础学习
+  - Ruby on Rails
+  - Ruby高级技巧
+  - Ruby元编程
 - Spring体系
   - [基础核心框架](/快速入门.md)
   - [SpringBoot](/快速入门.md)
