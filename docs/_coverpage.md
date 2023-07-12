@@ -9,10 +9,10 @@
 
 > 框架类知识
 
-- Gin
-- Rails
-- Flask
-- SpringBoot
+- Gin体系
+- Rails体系
+- Flask体系
+- SpringBoot体系
 
 [GitHub](https://github.com/WEIQI1127/WEIQI1127.github.io.git/)
 [开始学习](md/introduction/introduction.md)

@@ -1,4 +1,3 @@
-- [首页](/)
 - 导读
     - [内容阅览](md/introduction/introduction.md)
     - [学习路线](md/introduction/studyPath.md)
