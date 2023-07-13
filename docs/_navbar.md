@@ -5,13 +5,7 @@
   - [高级特性](/快速入门.md)
   - [Java高并发](/快速入门.md)
   - [网络编程](/快速入门.md)
-- Go | Python | Ruby
-  - Go基础学习
-  - Go进阶
-  - Gin框架
-  - Python基础学习
-  - Python高级变成
-  - Flask框架
+- Ruby
   - Ruby基础学习
   - Ruby on Rails
   - Ruby高级技巧
